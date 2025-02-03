@@ -63,9 +63,9 @@ public class spiral_matrix {
 
         //Example of the spiral matrix
         List<List<Integer>> matrix = new ArrayList<>();
-        matrix.add(new ArrayList<>(List.of(1, 2, 3, 4)));
-        matrix.add(new ArrayList<>(List.of(5, 6, 7, 8)));
-        matrix.add(new ArrayList<>(List.of(9, 10, 11, 12)));
+        matrix.add(new ArrayList<>(List.of(1, 2, 3)));
+        matrix.add(new ArrayList<>(List.of(4,5,6)));
+        matrix.add(new ArrayList<>(List.of(7,8,9)));
 
         //Call the spiral order function
         List<Integer> result = spiralOrder(matrix);
